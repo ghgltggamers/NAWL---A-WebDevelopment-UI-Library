@@ -1,0 +1,448 @@
+/* This is the default themes of NAWL , Every color is professionally selected for your project */
+body{
+    transition: 1s;
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.nawl-light{
+    background-color: whitesmoke;
+    color: dimgray;
+}
+
+.nawl-light .nawl-button{
+    background-color: rgb(17, 117, 218);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding: 10px; */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.nawl-light .nawl-button:hover{
+    background-color: rgb(29, 134, 239);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nawl-light .nawl-button:focus{
+    background-color: rgb(12, 93, 174);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+
+.nawl-light .nawl-theme-button{
+    background-color: white;
+    color: dimgray;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 1px solid silver;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding: 10px; */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.nawl-light .nawl-theme-button:hover{
+    background-color: silver;
+    /* color: white; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nawl-light .nawl-theme-button:focus{
+    background-color: gray;
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+
+.nawl-light .nawl-input{
+    background-color: white;
+    color: dimgray;
+    border: 1px solid silver;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+    transition: .5s;
+}
+
+
+.nawl-light .nawl-input:hover{
+    background-color: whitesmoke;
+    border: 2px solid silver;
+}
+
+.nawl-light .nawl-input:focus{
+    background-color: whitesmoke;
+    border: 2px solid rgb(17, 117, 218);
+    cursor: text;
+}
+
+
+.nawl-light textarea{
+    height: 100px;
+}
+
+
+.nawl-light .nawl-container{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    color: dimgray;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.nawl-container{
+    overflow: hidden;
+}
+
+
+
+
+
+.nawl-light .nawl-dynamic-container{
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 999999px;
+    max-width: 999999px;
+    background-color: white;
+    color: dimgray;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+.nawl-dark .nawl-card{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    color: dimgray;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+.nawl-dark .nawl-card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.nawl-dark .nawl-card:active{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .4);
+}
+
+
+
+.nawl-light .nawl-textedit{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    color: dimgray;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.nawl-light .nawl-textedit-text{
+    background-color: rgb(232, 232, 232);
+    border-radius:  5px;
+    color: dimgray;
+}
+
+.nawl-light .nawl-textedit-button{
+    background-color: transparent;
+    color: dimgray;
+    border: 0px;
+    transition: .5s;
+    cursor: pointer;
+    /* justify-self: right; */
+    margin-left: auto;
+    /* position: absolute; */
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+}
+.nawl-light .nawl-textedit-button:hover{
+    color: gray;
+}
+.nawl-light .nawl-textedit-button:focus{
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* dark theme */
+.nawl-dark{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.nawl-dark .nawl-button{
+    background-color: rgb(17, 117, 218);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.nawl-dark .nawl-button:hover{
+    background-color: rgb(29, 134, 239);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nawl-dark .nawl-button:focus{
+    background-color: rgb(12, 93, 174);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+
+.nawl-dark .nawl-input{
+    background-color: rgb(31, 31, 31);
+    color: dimgray;
+    border: 1px solid silver;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+    transition: .5s;
+}
+
+
+.nawl-dark .nawl-input:hover{
+    /* background-color: whitesmoke; */
+    border: 2px solid silver;
+}
+
+.nawl-dark .nawl-input:focus{
+    background-color: rgb(47, 47, 47);
+    border: 2px solid rgb(17, 117, 218);
+    cursor: text;
+}
+
+
+.nawl-dark textarea{
+    height: 100px;
+}
+
+
+
+.nawl-dark .nawl-container{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+.nawl-dark .nawl-dynamic-container{
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 999999px;
+    max-width: 999999px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+
+.nawl-dark .nawl-card{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+.nawl-dark .nawl-card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.nawl-dark .nawl-card:active{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .4);
+}
+
+
+
+
+
+
+.nawl-dark .nawl-theme-button{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px solid silver;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding: 10px; */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.nawl-dark .nawl-theme-button:hover{
+    background-color: rgba(0, 0, 0, .4);
+    /* color: white; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nawl-dark .nawl-theme-button:focus{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+.nawl-dark .nawl-textedit{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.nawl-dark .nawl-textedit-text{
+    background-color: rgba(0, 0, 0, .4);
+    border-radius:  5px;
+    color: white;
+}
+
+.nawl-dark .nawl-textedit-button{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    transition: .5s;
+    cursor: pointer;
+    /* justify-self: right; */
+    margin-left: auto;
+    /* position: absolute; */
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+}
+.nawl-dark .nawl-textedit-button:hover{
+    color: silver;
+}
+.nawl-dark .nawl-textedit-button:focus{
+    border: 1px solid silver;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAWL Widget</title>
+
+    <link rel="stylesheet" href="nawl.lib.css">
+</head>
+<body>
+    
+</body>
+<script src="nawl.lib.js"></script>
+<script>
+    const button = NAWL_Button('button');
+    button.widget.render();
+
+    // NAWL_Current_Spacer(2);
+    const space = NAWL_VSpacer(10);
+    NAWL_Render(space);
+
+    const button_icon = NAWL_Button('icon button', 'nawl-ico-hd.png');
+    button_icon.widget.render();
+
+    // NAWL_Current_Spacer(2);
+    NAWL_Render(NAWL_VSpacer(10));
+
+    const button_theme = NAWL_Theme_Button('theme button');
+    button_theme.widget.render();
+
+    NAWL_Render(NAWL_VSpacer(10));
+
+    const text_edit = NAWL_TextEdit('My TextEdit', 'Hellow world 2024');
+    NAWL_Render(text_edit);
+
+
+    NAWL_Event(button_theme, 'click', ()=>{NAWL_Set_Theme('nawl-dark')})
+</script>
+</html>

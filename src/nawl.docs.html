@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAWL - Documentation</title>
+    <link rel="stylesheet" href="nawl.lib.css">
+    <style>
+        .btn {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center id="cen">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </center>
+</body>
+<script src="nawl.lib.js"></script>
+<script>
+    // const root = NAWL_Widget();
+    // root.content('<h1>Hellow world</h1>');
+    // root.render();
+
+    // // root.add_Html('<button>Click me</button>');
+    // // root.add_Html('<button>Click me 2</button>');
+    // // root.add_Html('<button>Click me 3</button>');
+    // // root.add_Html('<button>Click me 4</button>');
+    // root.add_Html_Many(['<button>Click me</button>', '<button>Click me</button>', '<button>Click me</button>'])
+
+
+    // root.add_Html(root.fetch(3));
+    // root.remove(3);
+    // root.clear();
+
+
+    // var c = root.cache();
+    // c.add_Many([`<b>Hy from 1</b>`, `<b>Hy from 2</b>`, `<b>Hy from 3</b>`]);
+    // c.transferCache(document.body);
+
+    NAWL_Button_Class = 'btn';
+
+    const btn = NAWL_Button('Click me');
+    // btn.widget.render(document.body);
+
+    const inp = NAWL_Input('Email please', 'password');
+    // inp.widget.render(document.body);
+
+    const txt = NAWL_Textbox('Email please', 'password');
+    // txt.widget.render(document.body);
+
+    const card = NAWL_Card(300, 200, 'https://imagestore-images.github.io/service/images/mega%20attaction.jpeg');
+    card.widget.render(document.body);
+    card.label('Judge men');
+    // card.add_Many([inp, txt, btn])
+    // const con = NAWL_Dynamic_Container();
+    // con.widget.render(document.getElementById('cen'));
+    // con.add(NAWL_Break())
+    // con.add_Many([inp, NAWL_VSpacer(20), txt, NAWL_VSpacer(20)])
+
+    // btn.label('Submit form');
+    // con.add(btn)
+    // con.add(NAWL_VSpacer(20));
+
+    // const change_theme = NAWL_Button('Change theme - light');
+    // con.add(change_theme);
+    // con.add(NAWL_VSpacer(20))
+
+    // const change_themed = NAWL_Button('Change theme - dark');
+    // con.add(change_themed);
+
+
+    // function hello(){
+    //     alert('hello')
+    // }
+
+
+    // NAWL_Event(btn, 'click', hello);
+    // NAWL_Event(change_theme, 'click', function(){
+    //     NAWL_Set_Theme('nawl-light');
+    // });
+    // NAWL_Event(change_themed, 'click', function(){
+    //     NAWL_Set_Theme('nawl-dark');
+    // });
+    NAWL_Set_Theme('nawl-dark')
+</script>
+</html>
